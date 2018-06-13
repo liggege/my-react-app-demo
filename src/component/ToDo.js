@@ -12,7 +12,7 @@ const ToDo = ({ onClick, completed, text }) => (
   </li>
 );
 
-ToDo.PropTypes = {
+ToDo.propTypes = {
   onClick: PropTypes.func.isRequired,
   completed: PropTypes.bool.isRequired,
   text: PropTypes.string
